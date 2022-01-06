@@ -1,0 +1,149 @@
+/* nav {
+    background-color: coral;
+} */
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: gainsboro;
+    display: flex;
+    /* padding: 7px 0px; */
+    height: 10vh;
+    
+}
+
+nav .left {
+    /* background-color: cornflowerblue; */
+    flex: 50%;
+    padding: 10;
+    padding-left: 90px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    
+}
+nav .left li {
+    display: inline;
+}
+
+nav .left ul li a {
+    color: black;
+    margin: 20px;
+    font-family: calibri;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+nav .right {
+    /* background-color: darkcyan; */
+    flex: 50%;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10;
+    padding-right: 90px;
+    text-align: end ;
+    align-items: center;
+}
+
+nav .right a {
+    color: white;
+    background-color: orangered;
+    padding: 9px 15px;
+    border-radius: 9px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .section {
+    display: flex;
+    width: 85%;
+}
+
+.section .left {
+
+    flex: 35%;
+    
+}
+
+.section .left .card {
+    border-radius: 25px; 
+    width: 350;
+    padding: 20px;
+    box-shadow: 0px 0px 30px grey;
+
+}
+
+.section .right {
+    flex: 65%;
+    padding-left: 40px;
+}
+
+.section .right p {
+    color: grey;
+}
+
+.section .right .skill-section {
+    display: flex ;
+    padding: 10px;
+    
+}
+
+.section .right .skill-section p {
+    color: grey;
+}
+
+.section .right .sosmed li {
+    display: inline;
+}
+
+.section .right .sosmed ul li a {
+    color: black;
+    margin: 20px;
+    font-family: calibri;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+.form_card {
+    width: 400px; 
+    margin: 20px auto;
+}
+
+label {
+    font-size: 20px; 
+    font-weight:bold; 
+    font-family:calibri;
+}
+
+input, select, textarea {
+    background: whitesmoke;
+    width: 100%;
+    border: 1px solid wheat ;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    color: white; 
+    background: orangered; 
+    border: 0ch; 
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}

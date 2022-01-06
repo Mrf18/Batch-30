@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Contact Form
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="form.js"></script>
+
+    </head>
+    <body>
+        <nav>        
+            <div class="left">
+                <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+
+        <!-- akhir dari nav -->
+
+        <form class="form_card">
+            <div>
+                <h1>Input Your Massege</h1>
+            </div>
+            <div>
+                <Label for="name">Nama</Label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    placeholder="Input Nama"
+                   >
+            </div>
+
+            <div>
+                <Label for="mail">Email</Label>
+                <input type="email" id="mail"
+                    placeholder="Input Email"
+                    >
+            </div>
+            
+            <div>
+                <Label for="phone">Phone Number</Label>
+                <input type="text" id="phone"
+                    placeholder="Input Phone Number"
+                    >
+            </div>
+            
+            <div>
+                <label for="box1">Check Box</label>
+                <input type="checkbox" id="box1" value="BOX 1">
+                <label for="box2">Check Box 2</label>
+                <input type="checkbox" id="box2" value="BOX 2">
+            </div>
+
+            <div>
+                <Label for="sub">Subject</Label>
+                <select name="" id="subs">
+                    <option value="">choose</option>
+                    <option value="Troubleshooting">Troubleshooting</option>
+                    <option value="Problem Solving">Problem Solving</option>
+                </select>
+            </div>
+           
+            <div>
+                <Label for="pesan">Your Massege</Label>
+                <textarea cols="20px" rows="5px" maxlength="10" id="pesan"
+                    placeholder="Type Here"
+                    ></textarea>
+            </div>
+       
+            <div>
+                <button 
+                    type="button" onclick="submitData()"
+                    > 
+                Submit</button>
+            </div>
+        
+        </form>
+        </div>
+    </body>
+</html>
